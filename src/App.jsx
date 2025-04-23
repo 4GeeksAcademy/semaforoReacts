@@ -1,6 +1,6 @@
 import Content from './Content'
 
-function App() {
+const App = () => {
 
   return (
     
