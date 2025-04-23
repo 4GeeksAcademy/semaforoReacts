@@ -1,4 +1,5 @@
 import Content from './Content'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 const App = () => {
 

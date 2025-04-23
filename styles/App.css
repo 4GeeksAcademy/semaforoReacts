@@ -1,11 +1,74 @@
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.container-semaforo {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 100px;
+    border-radius: 6px;
+  
+    gap: 10px;
+    padding: 20px;
+  }
+  .palo {
+    width: 10px;
+    height: 60px;
+    background-color: black;
+  }
+  .brillo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: gray;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .brillo.red {
+    background-color: #4d0000;
+  }
+  
+  .brillo.yellow {
+    background-color: #4d4d00;
+  }
+  
+  .brillo.green {
+    background-color: #004d00;
+  }
+  
+  .brillo.purple {
+    background-color: #4b0082;
+  }
+  
+  .brillo.blue {
+    background-color: #0000fff5;
+  }
+  .brillo.chocolate {
+    background-color: #d2691e;
+  }
+  
+  .brillo.active.red {
+    background-color: red;
+    box-shadow: 0 0 50px red;
+  }
+  
+  .brillo.active.yellow {
+    background-color: yellow;
+    box-shadow: 0 0 50px yellow;
+  }
+  
+  .brillo.active.green {
+    background-color: green;
+    box-shadow: 0 0 50px green;
+  }
+  
+  .brillo.active.purple {
+    background-color: purple;
+    box-shadow: 0 0 50px purple;
+  }
+  .brillo.active.blue {
+    background-color: blue;
+    box-shadow: 0 0 50px blue;
+  }
+  .brillo.active.chocolate {
+    background-color: chocolate;
+    box-shadow: 0 0 50px chocolate;
+  }
