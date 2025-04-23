@@ -9,10 +9,10 @@ import "bootstrap"
 import '../styles/App.css'
 
 // components
-import App from './App.jsx'
+import App from './App'
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
+ReactDOM(document.getElementById('root')).render(
+  <React>
     <App />
-  </StrictMode>,
+  </React>,
 )
